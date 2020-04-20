@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import HandleEvent from './HandleEvent/HandleEvent';
+import RenderingCondition from './RenderingConditions/RenderingCondition';
 
 // import Header from './component/Demo/Header';
 // import HeaderRFC from './component/Demo/HeaderRFC';
@@ -20,7 +21,8 @@ function App() {
       {/* <DataBinding /> */}
       {/* <hr /> */}
       {/* <DataBindingRFC /> */}
-      <HandleEvent />
+      {/* <HandleEvent /> */}
+      <RenderingCondition />
 
     </div>
   );
