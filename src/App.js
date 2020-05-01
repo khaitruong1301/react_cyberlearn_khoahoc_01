@@ -4,6 +4,7 @@ import './App.css';
 import HandleEvent from './HandleEvent/HandleEvent';
 import StateDemo from './State/StateDemo';
 import Styling from './Styling/Styling';
+import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 
 // import Header from './component/Demo/Header';
 // import HeaderRFC from './component/Demo/HeaderRFC';
@@ -24,10 +25,9 @@ function App() {
       {/* <DataBindingRFC /> */}
       {/* <HandleEvent /> */}
       {/* <StateDemo /> */}
-      <Styling />
-      <p className="txt">app component</p>
-      <p className="txtStyle">123</p>
-
+      {/* <Styling /> */}
+      <BaiTapChonXe />
+        
     </div>
   );
 }
