@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import HandleEvent from './HandleEvent/HandleEvent';
 import StateDemo from './State/StateDemo';
+import Styling from './Styling/Styling';
 
 // import Header from './component/Demo/Header';
 // import HeaderRFC from './component/Demo/HeaderRFC';
@@ -22,7 +23,10 @@ function App() {
       {/* <hr /> */}
       {/* <DataBindingRFC /> */}
       {/* <HandleEvent /> */}
-      <StateDemo />
+      {/* <StateDemo /> */}
+      <Styling />
+      <p className="txt">app component</p>
+      <p className="txtStyle">123</p>
 
     </div>
   );
