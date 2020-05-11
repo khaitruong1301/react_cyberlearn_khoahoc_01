@@ -1,0 +1,1 @@
+{"version":3,"sources":["Styling.css","Styling.module.css"],"names":[],"mappings":"AAAA,KACI,SACJ,CCFA,yBACI,qBAAuB,CACvB,WAAY,CACZ,WACJ","file":"main.8ac5fe37.chunk.css","sourcesContent":[".txt {\r\n    color:red;\r\n}",".txtStyle{\r\n    background-color: black;\r\n    height: 50px;\r\n    color: green;\r\n}"]}

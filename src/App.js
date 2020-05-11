@@ -8,9 +8,10 @@ import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 
 // import Header from './component/Demo/Header';
 // import HeaderRFC from './component/Demo/HeaderRFC';
-// import BaiTapChiaLayout from './component/BaiTapChiaLayout/BaiTapChiaLayout';
+import BaiTapChiaLayout from './component/BaiTapChiaLayout/BaiTapChiaLayout';
 // import Home from './component/BaiTapChiaLayout/Home';
-// import BaiTapThucHanhLayout from './component/BaiTapThucHanhLayout/BaiTapThucHanhLayout';
+import BaiTapThucHanhLayout from './component/BaiTapThucHanhLayout/BaiTapThucHanhLayout';
+import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
 // import DataBinding from './DataBinding/DataBinding';
 // import DataBindingRFC from './DataBinding/DataBindingRFC';
 
@@ -26,9 +27,10 @@ function App() {
       {/* <HandleEvent /> */}
       {/* <StateDemo /> */}
       {/* <Styling /> */}
-      <BaiTapChonXe />
-        
+      {/* <BaiTapChonXe /> */}
+      <RenderWithLoop />
     </div>
+    
   );
 }
 
