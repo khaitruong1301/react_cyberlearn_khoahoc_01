@@ -12,6 +12,7 @@ import BaiTapChiaLayout from './component/BaiTapChiaLayout/BaiTapChiaLayout';
 // import Home from './component/BaiTapChiaLayout/Home';
 import BaiTapThucHanhLayout from './component/BaiTapThucHanhLayout/BaiTapThucHanhLayout';
 import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
+import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
 // import DataBinding from './DataBinding/DataBinding';
 // import DataBindingRFC from './DataBinding/DataBindingRFC';
 
@@ -28,7 +29,8 @@ function App() {
       {/* <StateDemo /> */}
       {/* <Styling /> */}
       {/* <BaiTapChonXe /> */}
-      <RenderWithLoop />
+      {/* <RenderWithLoop /> */}
+      <BaiTapRenderFilms />
     </div>
     
   );
