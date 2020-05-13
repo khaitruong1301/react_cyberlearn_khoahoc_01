@@ -33,8 +33,8 @@ function App() {
       {/* <BaiTapChonXe /> */}
       {/* <RenderWithLoop /> */}
       {/* <BaiTapRenderFilms /> */}
-      <BaiTapThuKinh />
-      {/* <BaiTapChonXeNangCao /> */}
+      {/* <BaiTapThuKinh /> */}
+      <BaiTapChonXeNangCao />
     </div>
     
   );
