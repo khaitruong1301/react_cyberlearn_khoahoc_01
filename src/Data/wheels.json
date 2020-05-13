@@ -1,0 +1,20 @@
+[
+    {
+      "idWheel": 1,
+      "img": "./images/icons/icon-wheel-1.jpg",
+      "title": "18-inch Alloy Wheels",
+      "price": "1,600"
+    },
+    {
+      "idWheel": 2,
+      "img": "./images/icons/icon-wheel-2.jpg",
+      "title": "18-inch 15-Spoke Black Alloy Wheels w/ Red Lip",
+      "price": "1,700"
+    },
+    {
+      "idWheel": 3,
+      "img": "./images/icons/icon-wheel-3.jpg",
+      "title": "18-inch 5-Spoke Black Alloy Wheels",
+      "price": "1,600"
+    }
+  ]

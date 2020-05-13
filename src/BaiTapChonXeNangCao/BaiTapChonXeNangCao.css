@@ -1,0 +1,60 @@
+p {
+    margin: 0 !important;
+  }
+  
+  #box-car {
+    padding: 0;
+    height: 402px;
+  }
+  
+  .cloudimage-360.initialized {
+    width: 73% !important;
+  }
+  
+  .active {
+    border: 2px solid #2198dc !important;
+  }
+  
+  .bg-car {
+    background-color: #e5e5e5;
+  }
+  
+  .crystal {
+    border: 2px solid #dbdbdb;
+    margin-bottom: 10px;
+  }
+  
+  .crystal:hover {
+    cursor: pointer;
+  }
+  
+  .crystal .thumb {
+    display: table-cell;
+  }
+  
+  .crystal .thumb img {
+    height: 5rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.8rem;
+    padding-top: 0.8rem;
+    width: auto;
+  }
+  
+  .crystal .color-info {
+    display: table-cell;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    vertical-align: middle;
+  }
+  
+  .description {
+    margin-top: 10px;
+  }
+  
+  .included {
+    color: #dbdbdb;
+  }
+  .price {
+    color: #2198dc;
+    font-size: 15px;
+  }
+  
