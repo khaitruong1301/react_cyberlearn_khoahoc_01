@@ -1,7 +1,15 @@
 import React, { Component } from 'react'
+import dataGlasses from '../Data/dataGlasses.json'
+
 
 export default class BaiTapThuKinh extends Component {
 
+
+    renderGlassesList = () => {
+        return dataGlasses.map((glassesItem, index) => {
+            return <img className="ml-2 p-2 border border-width-1" style={{width:'110px',cursor:'pointer'}} key={index} src={glassesItem.url} />
+        })
+    }
 
 
     render() {
@@ -34,8 +42,8 @@ export default class BaiTapThuKinh extends Component {
                                     <img className="position-absolute" style={{ width: '250px' }} src="./glassesImage/model.jpg" alt='model.jpg' />
                                     <img style={styleGlasses} className="position-absolute" src="./glassesImage/v1.png" />
                                     <div style={infoGlasses} className="position-relative ">
-                                        <span style={{color:'#AB82FF',fontSize:'17px'}} className="font-weight-bold">Tên kính</span> <br />
-                                        <span style={{fontSize:'13px',fontWeight:'400'}}>Mô tả</span>
+                                        <span style={{ color: '#AB82FF', fontSize: '17px' }} className="font-weight-bold">Tên kính</span> <br />
+                                        <span style={{ fontSize: '13px', fontWeight: '400' }}>Mô tả</span>
                                     </div>
                                 </div>
                             </div>
@@ -44,6 +52,10 @@ export default class BaiTapThuKinh extends Component {
 
                             </div>
                         </div>
+                    </div>
+                    {/* Div chứa các kính được chọn */}
+                    <div className="bg-light container text-center mt-5 d-flex justify-content-center p-5">
+                        {this.renderGlassesList()}
                     </div>
                 </div>
             </div >
