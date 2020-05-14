@@ -59,9 +59,22 @@ export default class BaiTapChonXeNangCao extends Component {
         })
     }
 
+
+    changeWheel = (newWheel) => {
+        //Tìm trong state hiện tại (this.state.carCurrent.wheels) 
+        let obWheel = this.state.carCurrent.wheels.find(item => item.idWheel === newWheel.idWheel);
+        if(obWheel!==-1){
+            //lấy ra source hình ảnh từ this.state.carCurrent.wheels
+            this.setState({
+                carCurrent:{...this.state.carCurrent,srcImg:obWheel.srcImg}
+            })
+        }
+    }
+
+
     renderWheels = () => {
         return dataWheels.map((item, index) => {
-            return <div className="row mt-1 border border-color-default m-3" key={index}>
+            return <div style={{cursor:'pointer'}} onClick={()=>{this.changeWheel(item)}} className="row mt-1 border border-color-default m-3" key={index}>
                 <div className="col-2">
                     <img className="p-3" style={{ width: '100%' }} src={item.img} alt={index} />
                 </div>
